@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Co.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo"><a href="#">Real Estate Co.</a></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>Find Your Dream Property</h1>
+            <p>Discover luxury homes and real estate properties with us.</p>
+            <button class="cta-button">Explore Properties</button>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="properties" class="properties-section">
+        <h2>Featured Properties</h2>
+        <div class="properties-grid">
+            <div class="property-card">
+                <img src="images/property1.jpg" alt="Property 1">
+                <div class="property-info">
+                    <h3>Modern Apartment</h3>
+                    <p>3 Bed, 2 Bath - 1,500 sqft</p>
+                    <a href="#" class="details-link">View Details</a>
+                </div>
+            </div>
+            <div class="property-card">
+                <img src="images/property2.jpg" alt="Property 2">
+                <div class="property-info">
+                    <h3>Luxury Villa</h3>
+                    <p>5 Bed, 4 Bath - 3,000 sqft</p>
+                    <a href="#" class="details-link">View Details</a>
+                </div>
+            </div>
+            <!-- Add more property cards as needed -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At Real Estate Co., we pride ourselves on providing top-tier real estate services and connecting clients with their ideal properties.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Real Estate Co. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
